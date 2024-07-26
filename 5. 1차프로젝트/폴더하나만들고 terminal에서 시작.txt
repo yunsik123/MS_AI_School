@@ -1,0 +1,25 @@
+폴더하나만들고 terminal에서 시작
+pip install virtualenv
+virtualenv asdf_venv   #가상환경이름만들기
+
+source asdf_venv/bin/activate  #맥의 경우에만 source쓰기
+#아닌경우 cmd창에서
+cd C:\Users\USER\Desktop\asdf
+asdf_venv\Scripts\activate
+#절대로 cmd창 끄지말기
+
+
+pip install django
+
+django-admin startproject myproject
+cd myproject   #project안으로 들어감
+django-admin startapp myapp   #myapp은 이름이고 이건 app을 만든거임
+
+
+
+project안에 app을 만듬
+
+app은 model(데이터) view(게시판글쓰기등)   app이라는 단위로 분리해서 관리함
+
+python manage.py runserver 192.168.219.106:8000
+http://192.168.219.106:8000/
