@@ -1,0 +1,28 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.main-background {
+  background-image: url('스크린샷 2024-08-26 230046.png'); /* 배경 이미지 경로 설정 */
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* 전체 화면 높이로 설정 */
+  width: 100%;
+}
+
+.floating-button {
+  position: fixed;
+  bottom: 30px; /* 화면 하단에서 30px 위로 */
+  right: 30px;  /* 화면 오른쪽에서 30px 왼쪽으로 */
+  z-index: 100; /* 버튼이 다른 요소들 위에 나타나도록 설정 */
+}
+
+.floating-button img {
+  width: auto; /* 자동 너비로 설정 */
+  height: 120px; /* 높이만 설정하여 원본 비율 유지 */
+  max-width: 100%; /* 이미지가 부모 요소를 넘지 않도록 설정 */
+  cursor: pointer;
+}
