@@ -1,0 +1,832 @@
+{
+    "@odata.context": "https://hani-search.search.windows.net/$metadata#indexes/$entity",
+    "@odata.etag": "\"0x8DCC342BD6A07D8\"",
+    "name": "hani-index",
+    "defaultScoringProfile": null,
+    "fields": [
+      {
+        "name": "id",
+        "type": "Edm.String",
+        "searchable": true,
+        "filterable": true,
+        "retrievable": true,
+        "stored": true,
+        "sortable": true,
+        "facetable": true,
+        "key": true,
+        "indexAnalyzer": null,
+        "searchAnalyzer": null,
+        "analyzer": null,
+        "normalizer": null,
+        "dimensions": null,
+        "vectorSearchProfile": null,
+        "vectorEncoding": null,
+        "synonymMaps": []
+      },
+      {
+        "name": "youthPolicyList",
+        "type": "Edm.String",
+        "searchable": true,
+        "filterable": true,
+        "retrievable": true,
+        "stored": true,
+        "sortable": true,
+        "facetable": true,
+        "key": false,
+        "indexAnalyzer": null,
+        "searchAnalyzer": null,
+        "analyzer": null,
+        "normalizer": null,
+        "dimensions": null,
+        "vectorSearchProfile": null,
+        "vectorEncoding": null,
+        "synonymMaps": []
+      },
+      {
+        "name": "pageNumber",
+        "type": "Edm.String",
+        "searchable": true,
+        "filterable": true,
+        "retrievable": true,
+        "stored": true,
+        "sortable": true,
+        "facetable": true,
+        "key": false,
+        "indexAnalyzer": null,
+        "searchAnalyzer": null,
+        "analyzer": null,
+        "normalizer": null,
+        "dimensions": null,
+        "vectorSearchProfile": null,
+        "vectorEncoding": null,
+        "synonymMaps": []
+      },
+      {
+        "name": "totalCount",
+        "type": "Edm.String",
+        "searchable": true,
+        "filterable": true,
+        "retrievable": true,
+        "stored": true,
+        "sortable": true,
+        "facetable": true,
+        "key": false,
+        "indexAnalyzer": null,
+        "searchAnalyzer": null,
+        "analyzer": null,
+        "normalizer": null,
+        "dimensions": null,
+        "vectorSearchProfile": null,
+        "vectorEncoding": null,
+        "synonymMaps": []
+      },
+      {
+        "name": "rowNumber",
+        "type": "Edm.String",
+        "searchable": true,
+        "filterable": true,
+        "retrievable": true,
+        "stored": true,
+        "sortable": true,
+        "facetable": true,
+        "key": false,
+        "indexAnalyzer": null,
+        "searchAnalyzer": null,
+        "analyzer": null,
+        "normalizer": null,
+        "dimensions": null,
+        "vectorSearchProfile": null,
+        "vectorEncoding": null,
+        "synonymMaps": []
+      },
+      {
+        "name": "institutionCode",
+        "type": "Edm.String",
+        "searchable": true,
+        "filterable": true,
+        "retrievable": true,
+        "stored": true,
+        "sortable": true,
+        "facetable": true,
+        "key": false,
+        "indexAnalyzer": null,
+        "searchAnalyzer": null,
+        "analyzer": null,
+        "normalizer": null,
+        "dimensions": null,
+        "vectorSearchProfile": null,
+        "vectorEncoding": null,
+        "synonymMaps": []
+      },
+      {
+        "name": "institutionType",
+        "type": "Edm.String",
+        "searchable": true,
+        "filterable": true,
+        "retrievable": true,
+        "stored": true,
+        "sortable": true,
+        "facetable": true,
+        "key": false,
+        "indexAnalyzer": null,
+        "searchAnalyzer": null,
+        "analyzer": null,
+        "normalizer": null,
+        "dimensions": null,
+        "vectorSearchProfile": null,
+        "vectorEncoding": null,
+        "synonymMaps": []
+      },
+      {
+        "name": "policyName",
+        "type": "Edm.String",
+        "searchable": true,
+        "filterable": true,
+        "retrievable": true,
+        "stored": true,
+        "sortable": true,
+        "facetable": true,
+        "key": false,
+        "indexAnalyzer": null,
+        "searchAnalyzer": null,
+        "analyzer": null,
+        "normalizer": null,
+        "dimensions": null,
+        "vectorSearchProfile": null,
+        "vectorEncoding": null,
+        "synonymMaps": []
+      },
+      {
+        "name": "policyIntroduction",
+        "type": "Edm.String",
+        "searchable": true,
+        "filterable": true,
+        "retrievable": true,
+        "stored": true,
+        "sortable": true,
+        "facetable": true,
+        "key": false,
+        "indexAnalyzer": null,
+        "searchAnalyzer": null,
+        "analyzer": null,
+        "normalizer": null,
+        "dimensions": null,
+        "vectorSearchProfile": null,
+        "vectorEncoding": null,
+        "synonymMaps": []
+      },
+      {
+        "name": "supportContent",
+        "type": "Edm.String",
+        "searchable": true,
+        "filterable": true,
+        "retrievable": true,
+        "stored": true,
+        "sortable": true,
+        "facetable": true,
+        "key": false,
+        "indexAnalyzer": null,
+        "searchAnalyzer": null,
+        "analyzer": null,
+        "normalizer": null,
+        "dimensions": null,
+        "vectorSearchProfile": null,
+        "vectorEncoding": null,
+        "synonymMaps": []
+      },
+      {
+        "name": "supportScale",
+        "type": "Edm.String",
+        "searchable": true,
+        "filterable": true,
+        "retrievable": true,
+        "stored": true,
+        "sortable": true,
+        "facetable": true,
+        "key": false,
+        "indexAnalyzer": null,
+        "searchAnalyzer": null,
+        "analyzer": null,
+        "normalizer": null,
+        "dimensions": null,
+        "vectorSearchProfile": null,
+        "vectorEncoding": null,
+        "synonymMaps": []
+      },
+      {
+        "name": "businessPeriod",
+        "type": "Edm.String",
+        "searchable": true,
+        "filterable": true,
+        "retrievable": true,
+        "stored": true,
+        "sortable": true,
+        "facetable": true,
+        "key": false,
+        "indexAnalyzer": null,
+        "searchAnalyzer": null,
+        "analyzer": null,
+        "normalizer": null,
+        "dimensions": null,
+        "vectorSearchProfile": null,
+        "vectorEncoding": null,
+        "synonymMaps": []
+      },
+      {
+        "name": "applicationPeriodRepeatType",
+        "type": "Edm.String",
+        "searchable": true,
+        "filterable": true,
+        "retrievable": true,
+        "stored": true,
+        "sortable": true,
+        "facetable": true,
+        "key": false,
+        "indexAnalyzer": null,
+        "searchAnalyzer": null,
+        "analyzer": null,
+        "normalizer": null,
+        "dimensions": null,
+        "vectorSearchProfile": null,
+        "vectorEncoding": null,
+        "synonymMaps": []
+      },
+      {
+        "name": "applicationPeriod",
+        "type": "Edm.String",
+        "searchable": true,
+        "filterable": true,
+        "retrievable": true,
+        "stored": true,
+        "sortable": true,
+        "facetable": true,
+        "key": false,
+        "indexAnalyzer": null,
+        "searchAnalyzer": null,
+        "analyzer": null,
+        "normalizer": null,
+        "dimensions": null,
+        "vectorSearchProfile": null,
+        "vectorEncoding": null,
+        "synonymMaps": []
+      },
+      {
+        "name": "ageInformation",
+        "type": "Edm.String",
+        "searchable": true,
+        "filterable": true,
+        "retrievable": true,
+        "stored": true,
+        "sortable": true,
+        "facetable": true,
+        "key": false,
+        "indexAnalyzer": null,
+        "searchAnalyzer": null,
+        "analyzer": null,
+        "normalizer": null,
+        "dimensions": null,
+        "vectorSearchProfile": null,
+        "vectorEncoding": null,
+        "synonymMaps": []
+      },
+      {
+        "name": "majorRequirements",
+        "type": "Edm.String",
+        "searchable": true,
+        "filterable": true,
+        "retrievable": true,
+        "stored": true,
+        "sortable": true,
+        "facetable": true,
+        "key": false,
+        "indexAnalyzer": null,
+        "searchAnalyzer": null,
+        "analyzer": null,
+        "normalizer": null,
+        "dimensions": null,
+        "vectorSearchProfile": null,
+        "vectorEncoding": null,
+        "synonymMaps": []
+      },
+      {
+        "name": "employmentStatus",
+        "type": "Edm.String",
+        "searchable": true,
+        "filterable": true,
+        "retrievable": true,
+        "stored": true,
+        "sortable": true,
+        "facetable": true,
+        "key": false,
+        "indexAnalyzer": null,
+        "searchAnalyzer": null,
+        "analyzer": null,
+        "normalizer": null,
+        "dimensions": null,
+        "vectorSearchProfile": null,
+        "vectorEncoding": null,
+        "synonymMaps": []
+      },
+      {
+        "name": "specializationFieldRequirements",
+        "type": "Edm.String",
+        "searchable": true,
+        "filterable": true,
+        "retrievable": true,
+        "stored": true,
+        "sortable": true,
+        "facetable": true,
+        "key": false,
+        "indexAnalyzer": null,
+        "searchAnalyzer": null,
+        "analyzer": null,
+        "normalizer": null,
+        "dimensions": null,
+        "vectorSearchProfile": null,
+        "vectorEncoding": null,
+        "synonymMaps": []
+      },
+      {
+        "name": "academicRequirements",
+        "type": "Edm.String",
+        "searchable": true,
+        "filterable": true,
+        "retrievable": true,
+        "stored": true,
+        "sortable": true,
+        "facetable": true,
+        "key": false,
+        "indexAnalyzer": null,
+        "searchAnalyzer": null,
+        "analyzer": null,
+        "normalizer": null,
+        "dimensions": null,
+        "vectorSearchProfile": null,
+        "vectorEncoding": null,
+        "synonymMaps": []
+      },
+      {
+        "name": "residenceAndIncomeConditions",
+        "type": "Edm.String",
+        "searchable": true,
+        "filterable": true,
+        "retrievable": true,
+        "stored": true,
+        "sortable": true,
+        "facetable": true,
+        "key": false,
+        "indexAnalyzer": null,
+        "searchAnalyzer": null,
+        "analyzer": null,
+        "normalizer": null,
+        "dimensions": null,
+        "vectorSearchProfile": null,
+        "vectorEncoding": null,
+        "synonymMaps": []
+      },
+      {
+        "name": "additionalConditions",
+        "type": "Edm.String",
+        "searchable": true,
+        "filterable": true,
+        "retrievable": true,
+        "stored": true,
+        "sortable": true,
+        "facetable": true,
+        "key": false,
+        "indexAnalyzer": null,
+        "searchAnalyzer": null,
+        "analyzer": null,
+        "normalizer": null,
+        "dimensions": null,
+        "vectorSearchProfile": null,
+        "vectorEncoding": null,
+        "synonymMaps": []
+      },
+      {
+        "name": "participationRestrictionTarget",
+        "type": "Edm.String",
+        "searchable": true,
+        "filterable": true,
+        "retrievable": true,
+        "stored": true,
+        "sortable": true,
+        "facetable": true,
+        "key": false,
+        "indexAnalyzer": null,
+        "searchAnalyzer": null,
+        "analyzer": null,
+        "normalizer": null,
+        "dimensions": null,
+        "vectorSearchProfile": null,
+        "vectorEncoding": null,
+        "synonymMaps": []
+      },
+      {
+        "name": "applicationProcedure",
+        "type": "Edm.String",
+        "searchable": true,
+        "filterable": true,
+        "retrievable": true,
+        "stored": true,
+        "sortable": true,
+        "facetable": true,
+        "key": false,
+        "indexAnalyzer": null,
+        "searchAnalyzer": null,
+        "analyzer": null,
+        "normalizer": null,
+        "dimensions": null,
+        "vectorSearchProfile": null,
+        "vectorEncoding": null,
+        "synonymMaps": []
+      },
+      {
+        "name": "submissionDocuments",
+        "type": "Edm.String",
+        "searchable": true,
+        "filterable": true,
+        "retrievable": true,
+        "stored": true,
+        "sortable": true,
+        "facetable": true,
+        "key": false,
+        "indexAnalyzer": null,
+        "searchAnalyzer": null,
+        "analyzer": null,
+        "normalizer": null,
+        "dimensions": null,
+        "vectorSearchProfile": null,
+        "vectorEncoding": null,
+        "synonymMaps": []
+      },
+      {
+        "name": "evaluationResult",
+        "type": "Edm.String",
+        "searchable": true,
+        "filterable": true,
+        "retrievable": true,
+        "stored": true,
+        "sortable": true,
+        "facetable": true,
+        "key": false,
+        "indexAnalyzer": null,
+        "searchAnalyzer": null,
+        "analyzer": null,
+        "normalizer": null,
+        "dimensions": null,
+        "vectorSearchProfile": null,
+        "vectorEncoding": null,
+        "synonymMaps": []
+      },
+      {
+        "name": "applicationSiteURL",
+        "type": "Edm.String",
+        "searchable": true,
+        "filterable": true,
+        "retrievable": true,
+        "stored": true,
+        "sortable": true,
+        "facetable": true,
+        "key": false,
+        "indexAnalyzer": null,
+        "searchAnalyzer": null,
+        "analyzer": null,
+        "normalizer": null,
+        "dimensions": null,
+        "vectorSearchProfile": null,
+        "vectorEncoding": null,
+        "synonymMaps": []
+      },
+      {
+        "name": "referenceSiteURL1",
+        "type": "Edm.String",
+        "searchable": true,
+        "filterable": true,
+        "retrievable": true,
+        "stored": true,
+        "sortable": true,
+        "facetable": true,
+        "key": false,
+        "indexAnalyzer": null,
+        "searchAnalyzer": null,
+        "analyzer": null,
+        "normalizer": null,
+        "dimensions": null,
+        "vectorSearchProfile": null,
+        "vectorEncoding": null,
+        "synonymMaps": []
+      },
+      {
+        "name": "referenceSiteURL2",
+        "type": "Edm.String",
+        "searchable": true,
+        "filterable": true,
+        "retrievable": true,
+        "stored": true,
+        "sortable": true,
+        "facetable": true,
+        "key": false,
+        "indexAnalyzer": null,
+        "searchAnalyzer": null,
+        "analyzer": null,
+        "normalizer": null,
+        "dimensions": null,
+        "vectorSearchProfile": null,
+        "vectorEncoding": null,
+        "synonymMaps": []
+      },
+      {
+        "name": "managingDepartment",
+        "type": "Edm.String",
+        "searchable": true,
+        "filterable": true,
+        "retrievable": true,
+        "stored": true,
+        "sortable": true,
+        "facetable": true,
+        "key": false,
+        "indexAnalyzer": null,
+        "searchAnalyzer": null,
+        "analyzer": null,
+        "normalizer": null,
+        "dimensions": null,
+        "vectorSearchProfile": null,
+        "vectorEncoding": null,
+        "synonymMaps": []
+      },
+      {
+        "name": "responsiblePersonName",
+        "type": "Edm.String",
+        "searchable": true,
+        "filterable": true,
+        "retrievable": true,
+        "stored": true,
+        "sortable": true,
+        "facetable": true,
+        "key": false,
+        "indexAnalyzer": null,
+        "searchAnalyzer": null,
+        "analyzer": null,
+        "normalizer": null,
+        "dimensions": null,
+        "vectorSearchProfile": null,
+        "vectorEncoding": null,
+        "synonymMaps": []
+      },
+      {
+        "name": "responsiblePersonContact",
+        "type": "Edm.String",
+        "searchable": true,
+        "filterable": true,
+        "retrievable": true,
+        "stored": true,
+        "sortable": true,
+        "facetable": true,
+        "key": false,
+        "indexAnalyzer": null,
+        "searchAnalyzer": null,
+        "analyzer": null,
+        "normalizer": null,
+        "dimensions": null,
+        "vectorSearchProfile": null,
+        "vectorEncoding": null,
+        "synonymMaps": []
+      },
+      {
+        "name": "operatingInstitution",
+        "type": "Edm.String",
+        "searchable": true,
+        "filterable": true,
+        "retrievable": true,
+        "stored": true,
+        "sortable": true,
+        "facetable": true,
+        "key": false,
+        "indexAnalyzer": null,
+        "searchAnalyzer": null,
+        "analyzer": null,
+        "normalizer": null,
+        "dimensions": null,
+        "vectorSearchProfile": null,
+        "vectorEncoding": null,
+        "synonymMaps": []
+      },
+      {
+        "name": "operatingInstitutionContactName",
+        "type": "Edm.String",
+        "searchable": true,
+        "filterable": true,
+        "retrievable": true,
+        "stored": true,
+        "sortable": true,
+        "facetable": true,
+        "key": false,
+        "indexAnalyzer": null,
+        "searchAnalyzer": null,
+        "analyzer": null,
+        "normalizer": null,
+        "dimensions": null,
+        "vectorSearchProfile": null,
+        "vectorEncoding": null,
+        "synonymMaps": []
+      },
+      {
+        "name": "operatingInstitutionContactPhone",
+        "type": "Edm.String",
+        "searchable": true,
+        "filterable": true,
+        "retrievable": true,
+        "stored": true,
+        "sortable": true,
+        "facetable": true,
+        "key": false,
+        "indexAnalyzer": null,
+        "searchAnalyzer": null,
+        "analyzer": null,
+        "normalizer": null,
+        "dimensions": null,
+        "vectorSearchProfile": null,
+        "vectorEncoding": null,
+        "synonymMaps": []
+      },
+      {
+        "name": "otherInformation",
+        "type": "Edm.String",
+        "searchable": true,
+        "filterable": true,
+        "retrievable": true,
+        "stored": true,
+        "sortable": true,
+        "facetable": true,
+        "key": false,
+        "indexAnalyzer": null,
+        "searchAnalyzer": null,
+        "analyzer": null,
+        "normalizer": null,
+        "dimensions": null,
+        "vectorSearchProfile": null,
+        "vectorEncoding": null,
+        "synonymMaps": []
+      },
+      {
+        "name": "policyFieldCode",
+        "type": "Edm.String",
+        "searchable": true,
+        "filterable": true,
+        "retrievable": true,
+        "stored": true,
+        "sortable": true,
+        "facetable": true,
+        "key": false,
+        "indexAnalyzer": null,
+        "searchAnalyzer": null,
+        "analyzer": null,
+        "normalizer": null,
+        "dimensions": null,
+        "vectorSearchProfile": null,
+        "vectorEncoding": null,
+        "synonymMaps": []
+      }
+    ],
+    "scoringProfiles": [],
+    "corsOptions": null,
+    "suggesters": [],
+    "analyzers": [],
+    "normalizers": [],
+    "tokenizers": [],
+    "tokenFilters": [],
+    "charFilters": [],
+    "encryptionKey": null,
+    "similarity": {
+      "@odata.type": "#Microsoft.Azure.Search.BM25Similarity",
+      "k1": null,
+      "b": null
+    },
+    "semantic": {
+      "defaultConfiguration": null,
+      "configurations": [
+        {
+          "name": "hani-semeantic",
+          "prioritizedFields": {
+            "titleField": {
+              "fieldName": "id"
+            },
+            "prioritizedContentFields": [
+              {
+                "fieldName": "youthPolicyList"
+              },
+              {
+                "fieldName": "pageNumber"
+              },
+              {
+                "fieldName": "totalCount"
+              },
+              {
+                "fieldName": "rowNumber"
+              },
+              {
+                "fieldName": "institutionCode"
+              },
+              {
+                "fieldName": "institutionType"
+              },
+              {
+                "fieldName": "policyName"
+              },
+              {
+                "fieldName": "policyIntroduction"
+              },
+              {
+                "fieldName": "supportContent"
+              },
+              {
+                "fieldName": "supportScale"
+              },
+              {
+                "fieldName": "businessPeriod"
+              },
+              {
+                "fieldName": "applicationPeriodRepeatType"
+              },
+              {
+                "fieldName": "applicationPeriod"
+              },
+              {
+                "fieldName": "ageInformation"
+              },
+              {
+                "fieldName": "majorRequirements"
+              },
+              {
+                "fieldName": "employmentStatus"
+              },
+              {
+                "fieldName": "specializationFieldRequirements"
+              },
+              {
+                "fieldName": "academicRequirements"
+              },
+              {
+                "fieldName": "residenceAndIncomeConditions"
+              },
+              {
+                "fieldName": "additionalConditions"
+              },
+              {
+                "fieldName": "participationRestrictionTarget"
+              },
+              {
+                "fieldName": "applicationProcedure"
+              },
+              {
+                "fieldName": "submissionDocuments"
+              },
+              {
+                "fieldName": "evaluationResult"
+              },
+              {
+                "fieldName": "applicationSiteURL"
+              },
+              {
+                "fieldName": "referenceSiteURL1"
+              },
+              {
+                "fieldName": "referenceSiteURL2"
+              },
+              {
+                "fieldName": "managingDepartment"
+              },
+              {
+                "fieldName": "responsiblePersonName"
+              },
+              {
+                "fieldName": "responsiblePersonContact"
+              },
+              {
+                "fieldName": "operatingInstitution"
+              },
+              {
+                "fieldName": "operatingInstitutionContactName"
+              },
+              {
+                "fieldName": "operatingInstitutionContactPhone"
+              },
+              {
+                "fieldName": "otherInformation"
+              },
+              {
+                "fieldName": "policyFieldCode"
+              }
+            ],
+            "prioritizedKeywordsFields": [
+              {
+                "fieldName": "policyName"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "vectorSearch": null
+  }
