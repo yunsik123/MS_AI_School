@@ -1,0 +1,181 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fffcfc;
+  font-family: 'Pretendard', sans-serif;
+}
+
+.banner {
+  text-align: center;
+  margin: 0px 0;
+}
+
+.banner img {
+  width: 80%;
+  height: auto;
+}
+
+/* USER GUIDE 헤더 스타일 */
+.guide-header {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.guide-header span {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: bold;
+  border: 2px solid #548ceb;
+  border-radius: 15px;
+  padding: 10px 20px;
+  color: #548ceb;
+  font-family: 'Pretendard', sans-serif;
+}
+
+.user-guide {
+  text-align: center;
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  max-width: 70%;
+  margin: 10px auto;
+  margin-top: 20px;
+  overflow: hidden;
+  max-height: 200px;
+  transition: max-height 0.5s ease;
+  line-height: 1.5;
+}
+
+#guide-text {
+  overflow: hidden;
+}
+
+#more-text {
+  display: none;
+}
+
+.toggle-guide {
+  display: block;
+  margin: 10px auto 0 auto;
+  padding: 10px 20px;
+  border: none;
+  background-color: #548ceb;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Pretendard', sans-serif;
+  font-weight: bold;
+}
+
+.toggle-guide:hover {
+  background-color: #466fbf;
+  font-family: 'Pretendard', sans-serif;
+  font-weight: bold;
+}
+
+.character-selection-header {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  font-family: 'Pretendard', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.character-selection-header span {
+  background-image: linear-gradient(to bottom, rgba(255, 255, 0, 0.3) 0%, transparent 100%);
+  background-repeat: no-repeat;
+  background-position: 0 50%; /* 밑줄을 아래로 내림 */
+  background-size: 100% 80%; /* 밑줄의 높이를 조정 */
+  padding-bottom: 10px; /* 텍스트와 밑줄 사이의 간격 조정 */
+}
+
+
+.character-buttons {
+  max-width: 90%;
+  margin: 20px auto;
+}
+
+.character-row {
+  display: flex;
+  justify-content: space-around; /* 버튼들 사이의 공간을 균등하게 분배 */
+  margin-bottom: 20px; /* 두 행 사이의 간격 */
+}
+
+.character-buttons {
+  max-width: 100%;
+  margin: 20px auto;
+}
+
+.character-row {
+  display: flex;
+  justify-content: space-around; /* 버튼들 사이의 공간을 균등하게 분배 */
+  margin-bottom: 20px; /* 두 행 사이의 간격 */
+}
+
+.character-buttons {
+  display: flex;
+  flex-direction: column; /* 버튼들을 세로로 배열 */
+  align-items: center; /* 버튼 그룹을 가운데 정렬 */
+  max-width: 90%;
+  margin: 20px auto;
+}
+
+.character-row {
+  display: flex;
+  justify-content: center; /* 버튼들이 가운데 정렬되도록 설정 */
+  margin-bottom: 10px; /* 두 행 사이의 간격을 좁게 설정 */
+}
+
+.character-buttons {
+  display: flex;
+  flex-direction: column; /* 버튼들을 세로로 배열 */
+  align-items: center; /* 버튼 그룹을 가운데 정렬 */
+  max-width: 90%;
+  margin: 20px auto;
+}
+
+.character-row {
+  display: flex;
+  justify-content: center; /* 버튼들이 가운데 정렬되도록 설정 */
+  margin-bottom: 20px; /* 두 행 사이의 간격 */
+}
+
+.character-button {
+  text-align: center;
+  margin: 10px; /* 각 버튼 사이의 간격 */
+  flex: 1;
+  max-width: 300px; /* 모든 버튼의 최대 너비를 키움 */
+  border: 2px solid #c3cee3; /* 테두리 색상 설정 */
+  border-radius: 15px; /* 둥근 모서리 설정 */
+  padding: 5px; /* 버튼 내부의 여백을 늘려서 크기를 키움 */
+  background-color: #ffffff; /* 버튼 배경색 설정 */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 그림자 효과 추가 */
+}
+
+.character-button img {
+  display: block;
+  width: 100%; 
+  height: auto; 
+  max-width: 800px; /* 이미지 크기를 크게 조정 */
+  object-fit: contain;
+  margin-top: 10px;
+  margin-bottom: 0px; /* 이미지와 텍스트 사이의 간격 설정 */
+  cursor: pointer;
+  border-radius: 10px; /* 이미지의 모서리도 둥글게 설정 */
+}
+
+.character-button p {
+  font-size: 18px; /* 텍스트 크기도 키움 */
+  line-height: 1;
+  margin-bottom: 45px; 
+  font-family: 'Pretendard', sans-serif;
+  font-weight: bold;
+}
+
+
