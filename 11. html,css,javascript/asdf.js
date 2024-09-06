@@ -1,0 +1,1 @@
+const rawInput = prompt('태어난 해를 입력하시오:')

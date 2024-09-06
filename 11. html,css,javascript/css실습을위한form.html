@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원 가입을 환영합니다</title>
+</head>
+<body>
+
+<h1>회원 가입을 환영합니다</h1>
+
+<form>
+    <fieldset>
+        <legend><strong>사용자 정보</strong></legend>
+        <table>
+            <tr>
+                <td><label for="userid">아이디</label></td>
+                <td><input type="text" id="userid" name="userid" placeholder="4자 ~ 10자 사이, 공백없이"></td>
+            </tr>
+            <tr>
+                <td><label for="email">이메일</label></td>
+                <td><input type="email" id="email" name="email"></td>
+            </tr>
+            <tr>
+                <td><label for="password">비밀번호</label></td>
+                <td><input type="password" id="password" name="password" placeholder="문자와 숫자, 특수 기호 포함"></td>
+            </tr>
+            <tr>
+                <td><label for="confirm_password">비밀번호 확인</label></td>
+                <td><input type="password" id="confirm_password" name="confirm_password"></td>
+            </tr>
+            <tr>
+                <td><label for="source">가입 경로</label></td>
+                <td>
+                    <select id="source" name="source">
+                        <option value="blog">블로그</option>
+                        <option value="search">검색</option>
+                        <option value="sns">SNS</option>
+                        <option value="other">기타</option>
+                    </select>
+                    <br>
+                    <label for="referral">남길 말씀이 있다면 여기에</label>
+                    <input type="text" id="referral" name="referral">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="memo">메모</label></td>
+                <td><textarea id="memo" name="memo" rows="4" cols="30"></textarea></td>
+            </tr>
+        </table>
+    </fieldset>
+
+    <fieldset>
+        <legend><strong>이벤트와 새로운 소식</strong></legend>
+        <table>
+            <tr>
+                <td><input type="radio" id="email_yes" name="newsletter" value="yes">
+                    <label for="email_yes">메일 수신</label></td>
+                <td><input type="radio" id="email_no" name="newsletter" value="no" checked>
+                    <label for="email_no">메일 수신 안 함</label></td>
+            </tr>
+        </table>
+    </fieldset>
+
+    <div style="text-align: center; margin-top: 20px;">
+        <button type="submit">가입하기</button>
+        <button type="reset">취소</button>
+    </div>
+</form>
+
+</body>
+</html>
