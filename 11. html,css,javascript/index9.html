@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+            width: 500px;
+            height: 200px;
+            border: 1px solid #ccc;
+        }
+        #fixed {
+            width: 100px;
+            height: 100px;
+            background-color: black;
+            position: fixed;
+            right: 30px;
+            top: 30px;
+        }
+        #static {
+            position: static;
+        }
+        #relative1{
+            position: absolute;
+            right: 100px;
+            top: 100px;
+        }
+        #relative2 {
+            position: relative;
+            left: 100px;
+            top: -50px;
+        }
+    </style>
+</head>
+<body>
+    <p id="static">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+    <p id="relative1">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, </p>
+    <p id="relative2">sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p id="fixed"></p>
+</body>
+</html>
